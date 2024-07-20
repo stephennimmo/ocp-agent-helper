@@ -30,6 +30,6 @@ jobs:
         if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_PAGES }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/ocp-agent-helper/browser
           enable_jekyll: true
