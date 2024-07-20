@@ -31,5 +31,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.github-pages }}
-          publish_dir: dist/angular-github-actions
+          publish_dir: dist/ocp-agent-helper/browser
           enable_jekyll: true
